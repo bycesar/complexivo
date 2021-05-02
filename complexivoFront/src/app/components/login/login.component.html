@@ -1,0 +1,27 @@
+<div class="container-fluid">
+  <div class="col">
+    <h1>Login</h1>
+  </div>
+  <div class="col" style="justify-content: center">
+    <div class="row">
+      <br />
+      <div>
+        <div class="ui-float-label">
+          <label>Username</label><br />
+          <input [(ngModel)]="user.username" type="text" size="30" />
+        </div>
+        <div class="ui-float-label">
+          <label>Password</label><br />
+          <input [(ngModel)]="user.contrasena" type="password" size="30" />
+        </div>
+      </div>
+      <br />
+      <div class="mt-3">
+        <button type="button" class="btn btn-primary" (click)="login()">
+          Login
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
